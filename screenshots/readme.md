@@ -47,7 +47,7 @@ Besucher empfangen, Fragebogen beantworten und die Probennahme dokumentieren.
 
 <p align="center">
   <img src="desktopapp_berateransicht.png" alt="Berater: Besucherauswahl" width="48%">
-<img src="desktopapp_beraterfragebogen.png" alt="Berater: Fragebogen" width="482%">
+<img src="desktopapp_beraterfragebogen.png" alt="Berater: Fragebogen" width="48%">
 </p>
 
 <p align="center">
