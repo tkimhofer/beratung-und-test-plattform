@@ -35,8 +35,16 @@
 # Klinik: Beratung und Probennahme
 
 <p align="center">
-  <img src="desktopapp_berateransicht.png" alt="Berater: Besucherauswahl width="32%">
-   <img src="desktopapp_antwortenvalidierung.png" alt="Berater: Validierung Fragebogen" width="32%">
-    <img src="desktopapp_probennahme.png" alt="Berater: Laboranforderung" width="32%">
+  <img src="desktopapp_berateransicht.png" alt="Berater: Besucherauswahl" width="32%">
+  <img src="desktopapp_probennahme.png" alt="Berater: Laboranforderung" width="32%">
+  <img src="desktopapp_antwortenvalidierung.png" alt="Berater: Validierung Fragebogen" width="32%">
+</p>
 
+
+# Klinik: Laborergebnisse, Benachrichtigung und Statistik
+
+<p align="center">
+  <img src="desktopapp_laborergebnis_management.png" alt="Laborergebnisse" width="32%">
+  <img src="desktopapp_management_ergebniszugang.png" alt="Management Laborergebnis-Zugang" width="32%">
+  <img src="desktopapp_statistik_2.png" alt="Statistik" width="32%">
 </p>
