@@ -16,7 +16,7 @@ Die Plattform verbindet eine interne Desktop-Anwendung für Beratung, Fragebogen
 
 ## Die Plattform
 
-Die Plattform bildet den gesamten Ablauf eines Gesundheitsangebots ab, ausgehend von zielgruppengerichteten Kampagnen und Testangeboten:
+Die Plattform bildet den gesamten Ablauf eines Gesundheitsangebots ab:
 
 1. Online-Terminbuchung und Terminmanagement
 2. Beratung und Probenentnahme
@@ -32,10 +32,10 @@ Terminbuchung, Terminverwaltung, E-Mail-Kommunikation,
 Online-Ergebnismitteilung
 
 ### Desktop-App
-Beratung, Fragebogen, Labor, Befunde, Statistik
+Beratung, Fragebogenerfassung, Labor, Befunde, Statistik
 
 ### Gemeinsames Backend
-API, Datenhaltung, Autorisierung, Pseudonymisierung,
+API, Datenmodel, Autorisierung, Pseudonymisierung,
 Workflow-Logik
 
 
@@ -48,7 +48,9 @@ Workflow-Logik
 
 ## Technologien
 
-React · TypeScript · Tauri · FastAPI · PostgreSQL · Docker  · nginx
+**Frontend:** React · TypeScript · Mantine · Tauri 
+**Backend:** FastAPI · Python · PostgreSQL
+**Deployment:** Docker · nginx · Cloudflare Tunnel · GitHub Actions & Container Registry
 
 
 ## Kampagnen und Evaluation
@@ -91,7 +93,7 @@ Die Desktop-App verwendet eine rollenbasierte Authentifizierung und Autorisierun
    <img src="screenshots/desktopapp_statistik.png" alt="Fragebogenstatistik" width="48%">
 </p>
 
-→ [Weitere Screenshots](https://github.com/tkimhofer/beratung-und-test-plattform/tree/master/screenshots)
+→ [Weitere Screenshots](screenshots/readme.md)
 
 
 ## Hinweis
