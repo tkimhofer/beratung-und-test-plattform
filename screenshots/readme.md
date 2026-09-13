@@ -11,7 +11,7 @@
 # Terminauswahl und -buchung
 
 <p align="center">
-   <img src="onlineangebot_aktionscode.png" alt="Klinikinfo" width="32%">
-  <img src="onlinebesucher_terminauswahl.png" alt="Angebote" width="48%">
-  <img src="onlineangebot_kontakt.png" alt="Klinikinfo" width="48%">
+   <img src="onlinebesucher_aktionscode.png" alt="Aktionscode" width="32%">
+  <img src="onlinebesucher_terminauswahl.png" alt="Terminauswahl" width="32%">
+  <img src="onlinebesucher_kontakt.png" alt="Kontakt" width="32%">
 </p>
