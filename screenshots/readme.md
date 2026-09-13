@@ -79,5 +79,5 @@ Angebotsnutzung, Testaufkommen und Reichweite zielgerichteter Gesundheitskampagn
 
 <p align="center">
    <img src="desktopapp_statistik.png" alt="Fragebogenstatistik" width="48%">
-   <img src="onlineadmin_attribution" alt="Herkunft der Online Buchungen" width="48%">
+   <img src="onlineadmin_attribution.png" alt="Herkunft der Online Buchungen" width="48%">
 </p>
