@@ -55,7 +55,7 @@ Workflow-Logik
 **Deployment:** Docker · nginx · Cloudflare Tunnel · GitHub Actions & Container Registry
 
 
-## Kampagnen und Evaluation
+## Reichweitenmessung in Zielgruppen
 
 Bei der Online-Terminbuchung werden UTM-Parameter erfasst und der gebuchten Leistung zugeordnet. Dadurch wird messbar, wie stark ein Angebot in Anspruch genommen wird und welche Zielgruppen durch unterschiedliche Kampagnen und Zugangswege erreicht werden. Auch Angaben aus der Beratung und diagnostische Ergebnisse können in aggregierte Analysen einbezogen werden.
 
