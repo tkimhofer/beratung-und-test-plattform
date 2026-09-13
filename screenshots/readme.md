@@ -17,9 +17,9 @@
 </p>
 
 <p align="center">
-   <img src="onlinebesucher_emailbestätigung_hinweis.png" alt="Aktionscode" width="32%">
-  <img src="onlinebesucher_emailbestätigung_erfolgreich.png" alt="Terminauswahl" width="32%">
-  <img src="onlinebesucher_terminmanagement.png" alt="Kontakt" width="32%">
+   <img src="onlinebesucher_emailbestätigung_hinweis.png" alt="E-mail Bestätigung" width="32%">
+  <img src="onlinebesucher_emailbestätigung_erfolgreich.png" alt="E-mail erfolgreiche bestätigt" width="32%">
+  <img src="onlinebesucher_terminmanagement.png" alt="Terminmanagement" width="32%">
 </p>
 
 
@@ -27,7 +27,8 @@
 
 
 <p align="center">
-   <img src="onlineadmin_logon.png" alt="Aktionscode" width="32%">
-  <img src="onlineadmin_totp.png" alt="Terminauswahl" width="32%">
   <img src="onlineadmin_übersicht.png" alt="Kontakt" width="32%">
+  <img src="onlinebesucher_buchungen_übersicht.png" alt="Aktionscode" width="32%">
+  <img src="onlineadmin_buchung_detailansicht.png" alt="Terminauswahl" width="32%">
+  
 </p>
