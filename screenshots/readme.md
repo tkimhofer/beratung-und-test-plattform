@@ -23,7 +23,7 @@
 </p>
 
 
-# Mitarbeiter: Terminmanagement Planung
+# Mitarbeiter: Buchungsmanagement und Terminplanung
 
 
 <p align="center">
