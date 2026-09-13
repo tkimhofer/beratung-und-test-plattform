@@ -23,8 +23,9 @@ Verfügbaren Termin auswählen, Buchungsanfrage absenden und E-Mail-Adresse best
 </p>
 
 <p align="center">
-  <img src="onlinebesucher_aktionscode.png" alt="Aktionscode" width="48%">
+  <!-- <img src="onlinebesucher_aktionscode.png" alt="Aktionscode" width="48%"> -->
   <img src="onlinebesucher_terminmanagement.png" alt="Terminmanagement" width="48%">
+   <img src="onlinebesucher_terminbestätigung_1.png" alt="Aktionscode" width="48%">
 </p>
 
 
