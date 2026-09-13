@@ -27,7 +27,7 @@
 
 
 <p align="center">
-  <img src="onlineadmin_übersicht.png" alt="Kontakt" width="32%">
+  <img src="onlineadmin_übersicht.png" alt="Adminansicht: Angebote und Buchungen" width="32%">
   <img src="onlinebesucher_buchungen_übersicht.png" alt="Adminansicht: Buchungen" width="32%">
   <img src="onlineadmin_buchung_detailansicht.png" alt="Adminansicht: Buchung Detailansicht" width="32%">
   
