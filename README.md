@@ -2,15 +2,11 @@
 
 Digitale Plattform für pseudonyme Gesundheitsangebote.
 
-Eine integrierte Plattform zur Verwaltung pseudonymer Gesundheitsangebote, die derzeit für die HIV/STI-Prävention und -Diagnostik konzipiert ist. Sie verbindet zielgruppengerichtete Gesundheitskampagnen mit Terminbuchung, Beratung, Laborprozessen, sicherer Online-Ergebnismitteilung und der Evaluation von Angeboten.
-
-Die Plattform verbindet eine interne Desktop-Anwendung für Beratung, Fragebogenerfassung sowie Labor- und Ergebnismanagement mit webbasierten Anwendungen für Terminbuchung, Terminverwaltung und Ergebnismitteilung. Alle Komponenten greifen auf ein gemeinsames Backend zu und bilden dadurch einen durchgängigen digitalen Ablauf von der Ansprache bis zum Ergebnis.
-
-# Beratung und Test Plattform
-
 ## Überblick
 
-Eine integrierte Plattform zur Verwaltung pseudonymer Gesundheitsangebote, die derzeit für die HIV/STI-Prävention und -Diagnostik konzipiert ist. Sie verbindet zielgruppengerichtete Gesundheitskampagnen mit Terminbuchung, Beratung, Laborprozessen, sicherer Online-Ergebnismitteilung und der Evaluation von Angeboten.
+Eine integrierte Plattform zur Verwaltung pseudonymer Gesundheitsangebote, die derzeit für die HIV/STI-Prävention und -Diagnostik konzipiert ist. Sie verbindet zielgruppengerichtete Gesundheitskampagnen mit Terminbuchung, Beratung, Laborprozessen, sicherer Online-Ergebnismitteilung und der Evaluation von Testangeboten.
+
+Die Plattform verbindet eine interne Desktop-Anwendung für Beratung, Fragebogenerfassung sowie Labor- und Ergebnismanagement mit webbasierten Anwendungen für Terminbuchung, Terminverwaltung und Ergebnismitteilung. Alle Komponenten greifen auf ein gemeinsames Backend zu und bilden dadurch einen durchgängigen digitalen Ablauf von der Ansprache bis zum Ergebnis.
 
 <p align="center">
   <img src="screenshots/onlinebesucher_angebote.png" alt="Angebot" width="48%">
@@ -20,12 +16,12 @@ Eine integrierte Plattform zur Verwaltung pseudonymer Gesundheitsangebote, die d
 
 ## Die Plattform
 
-Die Plattform bildet den gesamten Klinikprozess ab, ausgehend von Testangeboten im Rahmen von Gesundheitskampagnen:
+Die Plattform bildet den gesamten Ablauf eines Gesundheitsangebots ab, ausgehend von zielgruppengerichteten Kampagnen und Testangeboten:
 
-1. Online Terminbuchung und Terminmanagement
-2. Beratung und Laborprobenentnahme
-3. Management und Freigabe von Labortestergebnissen
-4. Sichere Online Ergebnismitteilung
+1. Online-Terminbuchung und Terminmanagement
+2. Beratung und Probenentnahme
+3. Management und Freigabe von Laborergebnissen
+4. Sichere Online-Ergebnismitteilung
 5. Evaluation und Statistik
 
 
@@ -42,35 +38,35 @@ Beratung, Fragebogen, Labor, Befunde, Statistik
 API, Datenhaltung, Autorisierung, Pseudonymisierung,
 Workflow-Logik
 
-## Kampagnen und Evaluation
-
-Um Angebote möglichst gut an den Menschen auszurichten, die sie benötigen, werden Kampagneninfomrmationen den URL-Links hinzugefügt. Dazu können beim Aufruf der Website übermittelte Kampagneninformationen (UTM-Parameter), die verweisende Website sowie die aufgerufene Einstiegsseite verarbeitet werden.
-
-Beispiel: Besucher scannen einen QR-Code und gelangen dadurch auf die Buchungswebsite. Der QR code enthält zusätzliche Informationen (UTM Parameter), welche Auskunf über das entsprechende Gesundheitsangebot liefert. So kann messbar gemacht werden, wie gut eine Gesundheitskampagne angenommen wird.
-
-Die Auswertung von Kampagneninformationen erfolgt unabhängig von der IP-Adresse der buchenden Person. Die gewonnenen Erkenntnisse werden verwendet, um Angebote und Zugangswege bedarfsgerecht weiterzuentwickeln.
-
-## Datenschutz und Pseudonymisierung
-
-Jedem Besucher wird ein zufällig ausgewähltes Mnemonic zugewiesen, welches ab Online-Terminierung, bis zur Beratung und Ergebnismitteilung den Besucher eindeutig yugeordente ist, sodass keine weiteren persönlichen Informationen notwendig sind. 
-
-Termine und Ergebnisse können unabhängig von der Email-Addresse über eine persönliche ULR (256 bit, high-entropy) verwaltet und eingesehen werden. Zur Einsicht von Online-Ergebnisse wird ein Pin vergeben.
-
-Online Administration Login nutzt Mutli-Faktor-Authentifizierung (Passwort und TOTP).
-
-Die Destktop App nutzt ein Rollen-basierte Authentifizierung und Authorisierung (Bearer Token).
-
 
 ## Architektur
 
 <p align="center">
-  <img src="assets/architektur.png" alt="Architektur" width="60%">
+  <img src="assets/architektur.png" alt="Architektur" width="90%">
 </p>
 
 
 ## Technologien
 
 React · TypeScript · Tauri · FastAPI · PostgreSQL · Docker  · nginx
+
+
+## Kampagnen und Evaluation
+
+Bei der Online-Terminbuchung werden UTM-Parameter erfasst und der gebuchten Leistung zugeordnet. Dadurch wird messbar, wie stark ein Angebot in Anspruch genommen wird und welche Zielgruppen durch unterschiedliche Kampagnen und Zugangswege erreicht werden. Auch Angaben aus der Beratung und diagnostische Ergebnisse können in aggregierte Analysen einbezogen werden.
+
+Die Plattform schafft damit eine Datengrundlage zur Evaluation von Kampagnen und Gesundheitsangeboten, ohne individuelle Nutzerprofile zu erstellen.
+
+
+## Datenschutz und Pseudonymisierung
+
+Für jeden Vorgang wird eine zufällig erzeugte mnemonische Kennung vergeben (z.B. `STILLER-GARTEN`). Diese leicht merkbare Kennung begleitet den pseudonymen Ablauf von der Terminbuchung über Beratung und Diagnostik bis zur Ergebnismitteilung. Dadurch kann der Vorgang über die verschiedenen Komponenten der Plattform hinweg zugeordnet werden, ohne dass hierfür eine dauerhafte personenbezogene Kennung erforderlich ist.
+
+Terminverwaltung und Ergebnismitteilung sind unabhängig von der E-Mail-Adresse über persönliche, kryptografisch zufällige URLs mit hoher Entropie möglich. Für den Zugriff auf online bereitgestellte Laborergebnisse wird zusätzlich ein persönlicher Zugangscode verwendet.
+
+Der administrative Zugang zur Web-Anwendung ist durch Multi-Faktor-Authentifizierung mit Passwort und zeitbasiertem Einmalpasswort (TOTP) geschützt.
+
+Die Desktop-App verwendet eine rollenbasierte Authentifizierung und Autorisierung. Zugriffsrechte werden über Bearer-Token durch das gemeinsame Backend kontrolliert.
 
 ## Screenshots
 
@@ -95,7 +91,7 @@ React · TypeScript · Tauri · FastAPI · PostgreSQL · Docker  · nginx
    <img src="screenshots/desktopapp_statistik.png" alt="Fragebogenstatistik" width="48%">
 </p>
 
-→ [Weitere Screenshots](https://github.com/tkimhofer/beratung-und-test-plattform/edit/master/screenshots/readme.md)
+→ [Weitere Screenshots](https://github.com/tkimhofer/beratung-und-test-plattform/tree/master/screenshots)
 
 
 ## Hinweis
