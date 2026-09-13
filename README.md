@@ -4,9 +4,9 @@ Digitale Plattform für pseudonyme Gesundheitsangebote.
 
 ## Überblick
 
-Eine integrierte Plattform zur Verwaltung pseudonymer Gesundheitsangebote, die derzeit für die HIV/STI-Prävention und -Diagnostik konzipiert ist. Sie verbindet zielgruppengerichtete Gesundheitskampagnen mit Terminbuchung, Beratung, Laborprozessen, sicherer Online-Ergebnismitteilung und der Evaluation von Testangeboten.
+Eine integrierte Plattform zur Verwaltung pseudonymer Gesundheitsangebote, die derzeit für die HIV/STI-Prävention und -Diagnostik konzipiert ist.
 
-Die Plattform verbindet eine interne Desktop-Anwendung für Beratung, Fragebogenerfassung sowie Labor- und Ergebnismanagement mit webbasierten Anwendungen für Terminbuchung, Terminverwaltung und Ergebnismitteilung. Alle Komponenten greifen auf ein gemeinsames Backend zu und bilden dadurch einen durchgängigen digitalen Ablauf von der Ansprache bis zum Ergebnis.
+Web- und Desktop-Anwendungen greifen auf ein gemeinsames Backend zu und bilden einen durchgängigen digitalen Ablauf von der Ansprache und Terminbuchung über Beratung und Diagnostik bis zur Ergebnismitteilung.
 
 <p align="center">
   <img src="screenshots/onlinebesucher_angebote.png" alt="Angebot" width="48%">
