@@ -48,3 +48,11 @@
   <img src="desktopapp_management_ergebniszugang.png" alt="Management Laborergebnis-Zugang" width="32%">
   <img src="desktopapp_statistik_2.png" alt="Statistik" width="32%">
 </p>
+
+# Besucher: Online Ergebnismitteilung
+
+<p align="center">
+  <img src="onlinebesucher_ergebnisprofil_login.png" alt="Besucherlogin Ergebnisse" width="32%">
+  <img src="onlinebesucher_laborergebnisse.png" alt="Besucherergebnisse" width="32%">
+  <img src="onlinebesucher_laborergebnis_hinweise.png" alt="Hinweise Besucherergebnisse" width="32%">
+</p>
