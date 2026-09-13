@@ -31,11 +31,11 @@ Die Plattform bildet den gesamten Klinikprozess ab, ausgehend von Testangeboten 
 
 ## Komponenten
 
-### Online-System
+### Web-Anwendung
 Terminbuchung, Terminverwaltung, E-Mail-Kommunikation,
 Online-Ergebnismitteilung
 
-### Desktop-Anwendung
+### Desktop-App
 Beratung, Fragebogen, Labor, Befunde, Statistik
 
 ### Gemeinsames Backend
@@ -64,7 +64,7 @@ Die Destktop App nutzt ein Rollen-basierte Authentifizierung und Authorisierung 
 ## Architektur
 
 <p align="center">
-  <img src="assets/architektur.png" alt="Architektur" width="48%">
+  <img src="assets/architektur.png" alt="Architektur" width="60%">
 </p>
 
 
@@ -74,16 +74,29 @@ React · TypeScript · Tauri · FastAPI · PostgreSQL · Docker  · nginx
 
 ## Screenshots
 
-Ausgewählte 4–6 Screenshots
+<p align="center">
+  <img src="screenshots/onlinebesucher_terminauswahl.png" alt="Terminauswahl" width="48%">
+  <img src="screenshots/onlinebesucher_kontakt.png" alt="Kontakt" width="48%">
+</p>
 
-→ Weitere Screenshots
+<p align="center">
+  <!-- <img src="onlineadmin_übersicht.png" alt="Adminansicht: Angebote und Buchungen" width="32%"> -->
+  <img src="screenshots/onlinebesucher_buchungen_übersicht.png" alt="Adminansicht: Buchungen" width="48%">
+  <img src="screenshots/onlineadmin_buchung_detailansicht.png" alt="Adminansicht: Buchung Detailansicht" width="48%">
+</p>
 
-## Projektdetails
+<p align="center">
+  <img src="screenshots/desktopapp_laborergebnis_management.png" alt="Laborergebnisse" width="48%">
+  <img src="screenshots/desktopapp_management_ergebniszugang.png" alt="Management Laborergebnis-Zugang" width="48%">
+</p>
 
-→ Architektur
-→ Datenschutz und Pseudonymisierung
-→ Kampagnen und Evaluation
-→ Technologien
+<p align="center">
+  <img src="screenshots/onlinebesucher_laborergebnisse.png" alt="Besucherergebnisse" width="48%">
+   <img src="screenshots/desktopapp_statistik.png" alt="Fragebogenstatistik" width="48%">
+</p>
+
+→ [Weitere Screenshots](https://github.com/tkimhofer/beratung-und-test-plattform/edit/master/screenshots/readme.md)
+
 
 ## Hinweis
 
