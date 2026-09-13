@@ -25,11 +25,18 @@
 
 # Mitarbeiter: Buchungsmanagement und Terminplanung
 
-
 <p align="center">
   <!-- <img src="onlineadmin_übersicht.png" alt="Adminansicht: Angebote und Buchungen" width="32%"> -->
   <img src="onlinebesucher_buchungen_übersicht.png" alt="Adminansicht: Buchungen" width="32%">
   <img src="onlineadmin_buchung_detailansicht.png" alt="Adminansicht: Buchung Detailansicht" width="32%">
    <img src="onlineadmin_terminplanung.png" alt="Adminansicht: Terminplanung" width="32%">
-  
+</p>
+
+# Klinik: Beratung und Probennahme
+
+<p align="center">
+  <img src="desktopapp_berateransicht.png" alt="Berater: Besucherauswahl width="32%">
+   <img src="desktopapp_antwortenvalidierung.png" alt="Berater: Validierung Fragebogen" width="32%">
+    <img src="desktopapp_probennahme.png" alt="Berater: Laboranforderung" width="32%">
+
 </p>
