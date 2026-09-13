@@ -41,6 +41,7 @@ Buchungen verwalten, Termine einsehen und verfügbare Zeitfenster planen.
 <p align="center">
 
    <img src="onlineadmin_terminplanung.png" alt="Adminansicht: Terminplanung" width="48%">
+   <img src="onlineadmin_regeltermin_hinzufügen.png" alt="Adminansicht: Regeltermin hinzufügen" width="48%">
 </p>
 
 ## 4. Klinik: Beratung und Probennahme
