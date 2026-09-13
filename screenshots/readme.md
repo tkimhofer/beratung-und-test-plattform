@@ -78,6 +78,6 @@ Laborergebnisse pseudonym und geschützt online abrufen.
 Angebotsnutzung, Testaufkommen und Reichweite zielgerichteter Gesundheitskampagnen auswerten.
 
 <p align="center">
-   <img src="desktopapp_statistik_2.png" alt="Statistik" width="48%">
-
+   <img src="desktopapp_statistik.png" alt="Statistik" width="48%">
+   <img src="onlineadmin_attribution" alt="Statistik" width="48%">
 </p>
