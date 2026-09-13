@@ -13,8 +13,8 @@ Die Plattform verbindet eine interne Desktop-Anwendung für Beratung, Fragebogen
 Eine integrierte Plattform zur Verwaltung pseudonymer Gesundheitsangebote, die derzeit für die HIV/STI-Prävention und -Diagnostik konzipiert ist. Sie verbindet zielgruppengerichtete Gesundheitskampagnen mit Terminbuchung, Beratung, Laborprozessen, sicherer Online-Ergebnismitteilung und der Evaluation von Angeboten.
 
 <p align="center">
-  <img src="onlinebesucher_angebote.png" alt="Angebot" width="48%">
-  <img src="onlineangebot_klinikinfo.png" alt="Besucherprozess" width="48%">
+  <img src="screenshots/onlinebesucher_angebote.png" alt="Angebot" width="48%">
+  <img src="screenshots/onlineangebot_klinikinfo.png" alt="Besucherprozess" width="48%">
 </p>
 
 
@@ -63,7 +63,10 @@ Die Destktop App nutzt ein Rollen-basierte Authentifizierung und Authorisierung 
 
 ## Architektur
 
-Architekturdiagramm + 1–2 Absätze
+<p align="center">
+  <img src="assets/architektur.png" alt="Architektur" width="48%">
+</p>
+
 
 ## Technologien
 
