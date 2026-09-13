@@ -1,6 +1,8 @@
-## Besucherinformation, Angebot und Aktionscodes
+# Der Ablauf aus Sicht von Besuchern und Mitarbeitenden
+Testangebot → Terminbuchung → Beratung → Probennahme → Labor → Ergebnismitteilung → Evaluation
 
-
+## Besucher: Information und Testangebot
+Passendes Angebot finden und Informationen zu Ablauf, Standort und Teilnahmebedingungen erhalten.
 <p align="center">
   <img src="onlinebesucher_angebote.png" alt="Angebote" width="32%">
   <img src="onlineangebot_klinikinfo.png" alt="Klinikinfo" width="32%">
