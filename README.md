@@ -49,7 +49,9 @@ Workflow-Logik
 ## Technologien
 
 **Frontend:** React · TypeScript · Mantine · Tauri 
+
 **Backend:** FastAPI · Python · PostgreSQL
+
 **Deployment:** Docker · nginx · Cloudflare Tunnel · GitHub Actions & Container Registry
 
 
