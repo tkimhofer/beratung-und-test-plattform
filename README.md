@@ -66,7 +66,7 @@ Die Plattform schafft damit eine Datengrundlage zur Evaluation von Kampagnen und
 
 Bei der Terminvergabe wird eine zufällig erzeugte mnemonische Kennung erstellt (z.B. `STILLER-GARTEN`). Sie ist leicht merkbar und begleitet den pseudonymen Ablauf von der Terminbuchung über Beratung und Diagnostik bis zur Ergebnismitteilung. Dadurch kann der Besuchervorgang über die verschiedenen Komponenten der Plattform hinweg zugeordnet werden, ohne dass hierfür eine dauerhafte personenbezogene Kennung erforderlich ist.
 
-Terminverwaltung und Ergebnismitteilung sind unabhängig von der E-Mail-Adresse über persönliche, kryptografisch zufällige URLs mit hoher Entropie möglich. Die E-Mail-Adresse wird nach Ablauf einer definierten Aufbewahrungsfrist automatisiert durch eine Housekeeping-Routine pseudonymisiert (DSGVO). Für den Zugriff auf online bereitgestellte Laborergebnisse wird zusätzlich ein persönlicher Zugangscode verwendet.
+Terminverwaltung und Ergebnismitteilung sind unabhängig von der E-Mail-Adresse über persönliche, kryptografisch zufällige URLs mit hoher Entropie möglich. Die E-Mail-Adresse zur Registrierung wird nach Ablauf einer definierten Aufbewahrungsfrist automatisiert durch eine Housekeeping-Routine pseudonymisiert (DSGVO). Für den Zugriff auf online bereitgestellte Laborergebnisse wird zusätzlich ein persönlicher Zugangscode verwendet.
 
 Der Zugang zum Adminbereich der Web-Anwendung ist durch Multi-Faktor-Authentifizierung mit Passwort und zeitbasiertem Einmalpasswort (TOTP) geschützt.
 
