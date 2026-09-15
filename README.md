@@ -68,9 +68,9 @@ Bei der Terminvergabe wird eine zufällig erzeugte mnemonische Kennung erstellt 
 
 Terminverwaltung und Ergebnismitteilung sind unabhängig von der E-Mail-Adresse über persönliche, kryptografisch zufällige URLs mit hoher Entropie möglich. Die E-Mail-Adresse wird nach Ablauf einer definierten Aufbewahrungsfrist automatisiert durch eine Housekeeping-Routine pseudonymisiert (DSGVO). Für den Zugriff auf online bereitgestellte Laborergebnisse wird zusätzlich ein persönlicher Zugangscode verwendet.
 
-Der administrative Zugang zur Web-Anwendung ist durch Multi-Faktor-Authentifizierung mit Passwort und zeitbasiertem Einmalpasswort (TOTP) geschützt.
+Der Zugang zum Adminbereich der Web-Anwendung ist durch Multi-Faktor-Authentifizierung mit Passwort und zeitbasiertem Einmalpasswort (TOTP) geschützt.
 
-Die Desktop-App verwendet eine rollenbasierte Authentifizierung und Autorisierung. Zugriffsrechte werden über Bearer-Token durch das gemeinsame Backend kontrolliert.
+Die Desktop-App verwendet Authentifizierung und rollenbasierte Autorisierung (RBAC). Zugriffsrechte werden über Bearer-Token durch das gemeinsame Backend kontrolliert.
 
 ## Screenshots
 
