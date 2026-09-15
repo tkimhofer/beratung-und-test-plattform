@@ -42,7 +42,7 @@ Workflow-Logik
 ## Architektur
 
 <p align="center">
-  <img src="assets/architektur.png" alt="Architektur" width="90%">
+  <img src="assets/architektur.png" alt="Architektur" width="100%">
 </p>
 
 
