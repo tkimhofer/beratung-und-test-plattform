@@ -64,7 +64,7 @@ Die Plattform schafft damit eine Datengrundlage zur Evaluation von Kampagnen und
 
 ## Datenschutz und Pseudonymisierung
 
-Bei der Terminvergabe wird eine zufällig erzeugte mnemonische Kennung erstellt (z.B. `STILLER-GARTEN`). Sie ist leicht merkbar und begleitet den pseudonymen Ablauf von der Terminbuchung über Beratung und Diagnostik bis zur Ergebnismitteilung. Dadurch kann der Vorgang über die verschiedenen Komponenten der Plattform hinweg zugeordnet werden, ohne dass hierfür eine dauerhafte personenbezogene Kennung erforderlich ist.
+Bei der Terminvergabe wird eine zufällig erzeugte mnemonische Kennung erstellt (z.B. `STILLER-GARTEN`). Sie ist leicht merkbar und begleitet den pseudonymen Ablauf von der Terminbuchung über Beratung und Diagnostik bis zur Ergebnismitteilung. Dadurch kann der Besuchervorgang über die verschiedenen Komponenten der Plattform hinweg zugeordnet werden, ohne dass hierfür eine dauerhafte personenbezogene Kennung erforderlich ist.
 
 Terminverwaltung und Ergebnismitteilung sind unabhängig von der E-Mail-Adresse über persönliche, kryptografisch zufällige URLs mit hoher Entropie möglich. Für den Zugriff auf online bereitgestellte Laborergebnisse wird zusätzlich ein persönlicher Zugangscode verwendet.
 
